@@ -144,12 +144,16 @@ section{
     grid-column: 1/2;
     grid-row: 1/-1;
     height: 85vh;
-    border: 1px solid black;
     transition: .3s;
 }
 
 .section_introduction img:hover{
     box-shadow: 6px 12px 5px #164e63;
+}
+
+.section_introduction img:active{
+    box-shadow: none;
+    border: 1px solid black;
 }
 
 .section_introduction p:first-of-type{
