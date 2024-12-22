@@ -21,7 +21,7 @@ header{
     background: white;
     position: fixed;
     z-index: 999;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #164e63;
 }
 nav a img{
     width: 50px;
@@ -72,10 +72,11 @@ section{
     z-index: 2;
     background: white;
     text-align: center;
-    padding-top: 2rem;
-    font-size: 2rem;
+    padding-top: 1.5rem;
+    font-size: 3rem;
     border: 1px solid black;
     box-shadow: 10px 10px white;
+    margin-top: 1rem;
 
 }
 
@@ -87,15 +88,15 @@ section{
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
-    text-shadow: 1px 1px 2px #164e63;
+    font-style: italic;
     background: white;
     border-top-right-radius: 1rem;
     box-shadow: 2px 3px 1px white; ;
 }
 
-.section_homepage img:first-of-type{
+.section_homepage img{
     grid-column: 1/-1;
     grid-row: 1/-1;
     height: 100%;
@@ -133,6 +134,8 @@ section{
 }
 
 .section_introduction{
+    grid-column: 1/2;
+    grid-row: 2/3;
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -148,7 +151,7 @@ section{
 }
 
 .section_introduction img:hover{
-    box-shadow: 6px 12px 5px #164e63;
+    box-shadow: 6px 5px 2px #164e63;
 }
 
 .section_introduction img:active{
@@ -162,6 +165,7 @@ section{
     border: 1px solid black;
     box-shadow: 6px 5px 2px #164e63;
     padding: 1rem;
+    line-height: 1.5rem;
 }
 
 .section_introduction p:last-of-type{
@@ -172,6 +176,65 @@ section{
     padding: 1rem;
 }
 
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr
+}
+
+
+
+.section_studies{
+    background: #164e63;
+    padding: 5rem;
+    position: relative;
+}
+
+.section_studies table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background:  #eaf6fa;
+}
+
+.section_studies table caption{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.section_studies table th, td{
+    width: calc(10%/3);
+    height: 7rem;
+    text-align: center;
+    border: 3px solid #164e63 ;
+}
+
+.section_studies table th{
+    color: white;
+    background:  #2995bc;
+    font-size: 1.2rem;
+    border-bottom: 3px solid #164e63;
+}
+
+.section_studies table tr:nth-child(even){
+    background:  #d5edf6;
+}
+
+.section_studies img:first-of-type{
+    width: 4rem;
+    position: absolute;
+    left: 28rem;
+    top: 3.8rem;
+}
+
+.section_studies img:last-of-type{
+    width: 4rem;
+    position: absolute;
+    right: 28rem;
+    top: 3.8rem;
+}
 
 
 
