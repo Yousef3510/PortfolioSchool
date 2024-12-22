@@ -1,0 +1,246 @@
+
+@media (max-width: 1900px) {
+    .section_introduction img{
+        height: 65vh;
+    }
+
+
+    .section_introduction table td{
+        font-size: 1.5rem;
+    }
+
+    .section_experience_grid_container ul li:first-of-type{
+        font-size: 2rem;
+    }
+
+    .section_introduction_second{
+        display: none;
+    }
+}
+
+@media (max-width: 1500px) {
+
+    .section_introduction img {
+        height: 45vh;
+        grid-row: 1/2;
+    }
+
+    .section_introduction table {
+        grid-column: 1/-1;
+        margin: 8rem;
+    }
+
+    .section_introduction table td {
+        font-size: 1rem;
+    }
+
+    .section_introduction table th {
+        font-size: 1.5rem;
+    }
+
+    .section_skills ul li{
+        font-size: 2rem;
+        width: 10rem;
+    }
+    .section_skills ul:nth-of-type(2) li{
+        width: 20rem;
+    }
+
+    .section_experience_grid_container {
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 25vh 25vh 25vh;
+    }
+
+
+    .section_experience_grid_container ul li:first-of-type {
+        font-size: 2.5rem;
+    }
+
+    .section_experience_grid_container ul li:nth-of-type(4){
+        grid-column: 1/-1;
+    }
+
+    }
+
+@media (max-width: 1200px) {
+    .section_homepage img:last-of-type {
+        height: 60%;
+        grid-column: 1/3;
+    }
+
+    .section_homepage h2 {
+        font-size: 3rem;
+    }
+
+    .section_introduction p {
+        font-size: 1rem;
+    }
+
+    .section_introduction table td{
+        font-size: 1.2rem;
+    }
+
+    .section_skills h2{
+        font-size: 2rem;
+    }
+
+    .section_skills ul {
+        gap: 3rem;
+    }
+
+    .section_skills ul li{
+        font-size: 1.5rem;
+        width: 10rem;
+    }
+    .section_skills ul:nth-of-type(2) li{
+        width: 15rem;
+    }
+
+    header ul{
+        font-size: 1.5rem;
+    }
+
+    .section_experience h2{
+        font-size: 4rem;
+    }
+
+    footer{
+        font-size: 1rem
+    }
+    .section_skills ul:first-of-type li img{
+        height: 3rem;
+    }
+
+    .section_experience{
+        padding: 2rem;
+    }
+
+
+}
+
+
+@media (max-width: 900px) {
+    .section_homepage img:last-of-type {
+        height: 80%;
+    }
+
+    .section_homepage h2 {
+        font-size: 4rem;
+    }
+
+    .section_introduction p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .section_introduction table td {
+        font-size: 1rem;
+    }
+
+    header ul {
+        font-size: 1.2rem;
+        gap: .5rem;
+    }
+
+    .section_experience h2 {
+        font-size: 2rem;
+    }
+
+    .section_experience_grid_container ul li:first-of-type {
+        font-size: 2rem;
+    }
+
+    .section_experience {
+        padding: 1rem;
+    }
+
+    .section_experience ul li {
+        font-size: 1rem;
+    }
+
+    .section_experience_grid_container ul{
+        margin: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .section_homepage img:last-of-type {
+        height: 70%;
+    }
+
+    .section_homepage h2{
+        font-size: 3rem;
+    }
+
+    .section_introduction img{
+        height: 30vh;
+    }
+
+    .section_skills h2 {
+        font-size: 1.5rem;
+    }
+
+    .section_skills ul{
+        gap: 1rem;
+    }
+
+    .section_skills ul li {
+        font-size: 1rem;
+    }
+    .section_skills ul:first-of-type li img{
+        height: 2rem;
+    }
+    .section_skills ul li {
+        padding: .5rem;
+    }
+    .section_introduction table {
+        margin: 4rem;
+    }
+
+    header ul{
+        font-size: 1rem;
+        gap: .5rem;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .section_introduction table {
+        display: none;
+    }
+
+    .section_introduction_second{
+        grid-column: 1/-1;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 5rem;
+        list-style: none;
+    }
+
+    .section_introduction_second li{
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .section_introduction_second li:nth-of-type(1), .section_introduction_second li:nth-of-type(2), .section_introduction_second  li:nth-of-type(3){
+        background: #164e63;
+        color: white;
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .section_experience_grid_container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+
