@@ -1,246 +1,217 @@
-
-@media (max-width: 1900px) {
-    .section_introduction img{
-        height: 65vh;
-    }
-
-
-    .section_introduction table td{
-        font-size: 1.5rem;
-    }
-
-    .section_experience_grid_container ul li:first-of-type{
-        font-size: 2rem;
-    }
-
-    .section_introduction_second{
-        display: none;
-    }
-}
-
-@media (max-width: 1500px) {
-
-    .section_introduction img {
-        height: 45vh;
-        grid-row: 1/2;
-    }
-
-    .section_introduction table {
-        grid-column: 1/-1;
-        margin: 8rem;
-    }
-
-    .section_introduction table td {
-        font-size: 1rem;
-    }
-
-    .section_introduction table th {
-        font-size: 1.5rem;
-    }
-
-    .section_skills ul li{
-        font-size: 2rem;
-        width: 10rem;
-    }
-    .section_skills ul:nth-of-type(2) li{
-        width: 20rem;
-    }
-
-    .section_experience_grid_container {
-        width: 100%;
-        padding: 1.5rem;
-        font-size: 1.2rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 25vh 25vh 25vh;
-    }
-
-
-    .section_experience_grid_container ul li:first-of-type {
-        font-size: 2.5rem;
-    }
-
-    .section_experience_grid_container ul li:nth-of-type(4){
-        grid-column: 1/-1;
-    }
-
-    }
-
-@media (max-width: 1200px) {
-    .section_homepage img:last-of-type {
-        height: 60%;
-        grid-column: 1/3;
-    }
-
-    .section_homepage h2 {
-        font-size: 3rem;
-    }
-
-    .section_introduction p {
-        font-size: 1rem;
-    }
-
-    .section_introduction table td{
-        font-size: 1.2rem;
-    }
-
-    .section_skills h2{
-        font-size: 2rem;
-    }
-
-    .section_skills ul {
-        gap: 3rem;
-    }
-
-    .section_skills ul li{
-        font-size: 1.5rem;
-        width: 10rem;
-    }
-    .section_skills ul:nth-of-type(2) li{
-        width: 15rem;
-    }
-
+@media (max-width: 1300px) {
     header ul{
         font-size: 1.5rem;
-    }
-
-    .section_experience h2{
-        font-size: 4rem;
-    }
-
-    footer{
-        font-size: 1rem
-    }
-    .section_skills ul:first-of-type li img{
-        height: 3rem;
-    }
-
-    .section_experience{
-        padding: 2rem;
-    }
-
-
-}
-
-
-@media (max-width: 900px) {
-    .section_homepage img:last-of-type {
-        height: 80%;
-    }
-
-    .section_homepage h2 {
-        font-size: 4rem;
-    }
-
-    .section_introduction p {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .section_introduction table td {
-        font-size: 1rem;
-    }
-
-    header ul {
-        font-size: 1.2rem;
-        gap: .5rem;
-    }
-
-    .section_experience h2 {
-        font-size: 2rem;
-    }
-
-    .section_experience_grid_container ul li:first-of-type {
-        font-size: 2rem;
-    }
-
-    .section_experience {
-        padding: 1rem;
-    }
-
-    .section_experience ul li {
-        font-size: 1rem;
-    }
-
-    .section_experience_grid_container ul{
-        margin: 0;
-    }
-}
-
-@media (max-width: 700px) {
-    .section_homepage img:last-of-type {
-        height: 70%;
     }
 
     .section_homepage h2{
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .section_homepage img{
+        height: 100%;
     }
 
     .section_introduction img{
-        height: 30vh;
+        width: 100%;
     }
 
-    .section_skills h2 {
+    .section_introduction p{
+        line-height: 1rem;
+        font-size: .8rem;
+    }
+
+    .section_studies table{
+        height: 40vh;
+    }
+
+    .section_skills h2{
         font-size: 1.5rem;
     }
 
-    .section_skills ul{
-        gap: 1rem;
-    }
-
-    .section_skills ul li {
+    .section_skills ul li{
         font-size: 1rem;
-    }
-    .section_skills ul:first-of-type li img{
-        height: 2rem;
-    }
-    .section_skills ul li {
-        padding: .5rem;
-    }
-    .section_introduction table {
-        margin: 4rem;
-    }
-
-    header ul{
-        font-size: 1rem;
-        gap: .5rem;
     }
 }
+
+@media (max-width: 900px) {
+    .section_homepage h1{
+        font-size: 1rem;
+    }
+
+    .section_homepage h2{
+        font-size: 2.5rem;
+        grid-column: 2/-1;
+        grid-row: 2/4;
+    }
+
+    .section_homepage img:last-of-type{
+        grid-column: 1/4;
+        grid-row: 1/4;
+        padding: 2rem;
+        width: fit-content;
+    }
+
+    .section_studies table{
+        height: 30vh;
+    }
+
+    .section_studies table caption{
+        font-size: 1.5rem;
+    }
+
+    .section_studies table th{
+        font-size: 1.2rem;
+    }
+
+    .section_studies table td{
+        font-size: 1rem;
+    }
+
+    .section_skills ul h2{
+        font-size: 1rem;
+    }
+
+    .section_skills ul h2 span img {
+        height: 2vh;
+    }
+
+    .section_experience_grid_container ul li{
+        font-size: .7rem;
+    }
+
+    .section_experience_grid_container ul li:first-of-type{
+        font-size: 1.2rem;
+    }
+
+    footer{
+        font-size: .7rem;
+    }
+}
+
+
+@media (max-width: 700px) {
+    header ul{
+        font-size: 1.2rem;
+        gap: .7rem;
+    }
+
+    .section_homepage img:last-of-type{
+        height: 45vh;
+        grid-column: 1/-1;
+        grid-row: 2/4;
+        place-self: center;
+        padding: 0;
+    }
+
+    .section_homepage h2{
+        grid-column: 1/-1;
+        grid-row: 4/4;
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    .section_experience_grid_container ul li:first-of-type{
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size: .8rem;
+    }
+}
+
+
 
 
 @media (max-width: 500px) {
-    .section_introduction table {
+    header ul{
         display: none;
     }
 
-    .section_introduction_second{
+    .dropdown{
+        display: flex;
+    }
+
+    .section_homepage h1{
         grid-column: 1/-1;
-        grid-row: 2/3;
+        border-radius: 0;
+    }
+
+    .section_homepage h2{
+        grid-column: 1/-1;
+        border-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown .dropbtn img{
+        display: block;
+    }
+
+
+    .section_introduction a{
+        place-content: center;
+    }
+
+    .section_introduction a img{
+        height: 20vh;
+        place-self: center;
+    }
+
+    .section_introduction p{
+        padding: .5rem;
+        padding-right: 1rem;;
+    }
+
+
+
+    main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        padding: 5rem;
-        list-style: none;
+        grid-template-columns: 1fr;
+        grid-template-rows: 90vh 35vh 180vh ;
     }
 
-    .section_introduction_second li{
-        text-align: center;
-        padding-top: 3rem;
+
+    .div_container_scroll{
+        grid-row: 3/4;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50vh 50vh 80vh;
+    }
+    .section_skills {
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
     }
 
-    .section_introduction_second li:nth-of-type(1), .section_introduction_second li:nth-of-type(2), .section_introduction_second  li:nth-of-type(3){
-        background: #164e63;
+    .section_skills ul{
+        width: 30%;
+    }
+
+    .section_skills ul li{
+        font-size: .8rem;
+    }
+    .section_skills ul h2{
+        width: 100%;
+        font-size: .8rem;
+    }
+
+
+    .section_experience h2 {
+        grid-column: 1/-1;
         color: white;
-        text-align: center;
-        padding-top: 3rem;
+        place-self: center;
+        height: 10%;
     }
 
     .section_experience_grid_container{
+        width: 90vw;
+        height: 90%;
+        padding: 1vh;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1vh;
     }
 
 
 }
-
-
